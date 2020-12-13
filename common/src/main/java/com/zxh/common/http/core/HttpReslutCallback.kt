@@ -7,7 +7,7 @@ interface HttpReslutCallback<T> {
     /**
      * 请求成功的结果
      */
-    fun onResponse(data:T)
+    fun onResponse(data: String)
 
     /**
      * 请求失败的结果
